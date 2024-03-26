@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 1rem;
+    padding: 2rem auto;
+}
+
+h2{
+    font-size: 1.1rem;
+    display: inline;
+    color: hsl(292, 42%, 14%);
+    cursor: pointer;
+}
+
+h2:hover{
+    color: hsl(293, 43%, 55%);
+}
+
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Work Sans", sans-serif;
+}
+
+#container{
+    background-color: white;
+    margin: 15rem auto;
+    width: 44rem;
+    height: 37rem;
+    padding: 1.9rem;
+    border-radius:1.8rem ;
+}
+
+.img-container{
+    margin: 1.3rem  auto 2rem 0.5rem;
+}
+
+.img-container h1{
+    display: inline;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left:0.5rem
+}
+
+.img-container img{
+    width: 1.8rem;
+    
+}
+
+.questions{
+    margin: 0.8rem;
+}
+
+.questions img{
+    float: right;
+}
+
+.questions img:hover{
+    cursor: pointer;
+}
+
+.star{
+    display: none;
+}
+
+.faq{
+   margin: 4rem auto 2rem;
+}
+
+.faq p, .q1 p{
+    margin: 1.5rem auto 1.7rem;
+    padding-right: 5rem;
+}
+
+.faq p{
+    display: none;
+}
+
+.minus, .q3m, .q4m{
+    display: none;
+}
+
+
+@media only screen  and (max-width:375px) {
+    body{
+        background-color: hsl(275, 100%, 97%);
+        background-image: url('./assets/images/background-pattern-mobile.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #container{
+        margin: 6rem auto;
+        width: 18rem;
+        height: 37rem;
+        padding: 0.5rem;
+        border-radius:1rem ;
+    }
+    .img-container{
+        margin: 0.8rem  auto 1rem 0.5rem;
+    }
+    
+.img-container h1{
+    font-size: 1.5rem;
+    margin-left:0.3rem
+}
+
+.img-container img{
+    width: 1.2rem;
+    
+}
+
+.questions{
+    margin: 0.5rem;
+}
+
+.questions img{
+    float: right;
+}
+
+.questions img:hover{
+    cursor: pointer;
+}
+
+
+
+.faq{
+   margin: 4rem auto 2rem;
+}
+
+.faq p, .q1 p{
+    margin: 1rem auto 0.8rem;
+    padding-right: 0.1rem;
+}
+p{
+    font-size: 0.8rem;
+    padding: 2rem auto;
+}
+
+h2{
+    font-size: 0.7rem;
+    padding-right: 5rem;
+}
+
+}
